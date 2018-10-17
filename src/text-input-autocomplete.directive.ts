@@ -26,7 +26,7 @@ export interface ChoiceSelectedEvent {
 
 @Directive({
   selector:
-    'textarea[mwlTextInputAutocomplete],input[type="text"][mwlTextInputAutocomplete]'
+    'textarea[mwlTextInputAutocomplete],input[type="text"][mwlTextInputAutocomplete],div[mwlTextInputAutocomplete]'
 })
 export class TextInputAutocompleteDirective implements OnDestroy {
   /**
